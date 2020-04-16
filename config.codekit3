@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/footer/Flag.jpg": {
+		"ft": 16384,
+		"iS": 5549,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/Flag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/deploy/img/section-1/hero.jpg": {
 		"ft": 16384,
 		"iS": 724986,
@@ -52,6 +63,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/section-5/gallery-1.jpg": {
+		"ft": 16384,
+		"iS": 659598,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/gallery-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/gallery-2.jpg": {
+		"ft": 16384,
+		"iS": 164018,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/gallery-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/gallery-3.jpg": {
+		"ft": 16384,
+		"iS": 200961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/gallery-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/circle mask.jpg": {
+		"ft": 16384,
+		"iS": 123814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/circle mask.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -77,6 +132,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/design/structure-tags.sketch",
+		"oF": 0
+		},
+	"/dev/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/footer.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -240,6 +303,54 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/dev/section-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-1.html",
+		"oF": 1
+		},
+	"/dev/section-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-2.html",
+		"oF": 1
+		},
+	"/dev/section-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-3.html",
+		"oF": 1
+		},
+	"/dev/section-4.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-4.html",
+		"oF": 1
+		},
+	"/dev/section-5.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-5.html",
+		"oF": 1
+		},
+	"/dev/section-6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-6.html",
+		"oF": 1
 		},
 	"/README.md": {
 		"cB": 0,
