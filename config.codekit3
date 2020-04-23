@@ -41,23 +41,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-2/left side.jpg": {
+	"/deploy/img/section-2/left-side.jpg": {
 		"ft": 16384,
 		"iS": 626205,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-2/left side.jpg",
+		"oAP": "/deploy/img/section-2/left-side.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/hero 2.jpg": {
+	"/deploy/img/section-3/hero-2.jpg": {
 		"ft": 16384,
 		"iS": 839448,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/hero 2.jpg",
+		"oAP": "/deploy/img/section-3/hero-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -96,12 +96,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-6/circle mask.jpg": {
+	"/deploy/img/section-6/circle-mask.jpg": {
 		"ft": 16384,
 		"iS": 123814,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-6/circle mask.jpg",
+		"oAP": "/deploy/img/section-6/circle-mask.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
