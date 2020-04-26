@@ -7,13 +7,12 @@
 
     #section-6-container{
         display: grid;
-        grid-template-columns: 10px auto 10px;
+        grid-template-columns: 15px auto 15px;
         grid-template-areas: ". section-6 .";
 
 
         img {
             width: 100%;
-            padding-top: 10;
 
         }
 
