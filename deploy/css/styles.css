@@ -428,7 +428,7 @@ textarea {
 ============= */
 #footer {
   display: grid;
-  grid-template-columns: 310 auto;
-  grid-template-areas: " . footer"; }
+  grid-template-columns: 310px auto 15px;
+  grid-template-areas: " . footer . "; }
   #footer #footer-content {
     grid-area: footer; }
