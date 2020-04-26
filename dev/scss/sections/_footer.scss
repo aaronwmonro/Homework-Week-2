@@ -1,0 +1,13 @@
+/* =============
+    Footer
+============= */
+#footer{
+    display: grid;
+    grid-template-columns: 310 auto;
+    grid-template-areas: " . footer";
+
+    #footer-content{
+        grid-area: footer;
+    }
+
+}
