@@ -322,6 +322,16 @@ ul {
   ul li {
     list-style: none; }
 
+.show-for-md {
+  display: none; }
+  @media (min-width: 768px) {
+    .show-for-md {
+      display: block; } }
+.show-for-lg {
+  display: none; }
+  @media (min-width: 992px) {
+    .show-for-lg {
+      display: block; } }
 /* =============
     Typography
 ============= */
@@ -369,16 +379,23 @@ textarea {
 /* =============
     Section 2
 ============= */
-#section-2 #section-2-container {
+@media (min-width: 768px) {
+  #section-2 #section-2-tablet {
+    display: grid;
+    grid-template-columns: 40% auto; } }
+
+#section-2 #section-2-tablet #section-2-tablet-content {
+  grid-area: section-2; }
+
+#section-2 #section-2-tablet aside img {
+  width: 100%; }
+
+#section-2 #section-2-tablet #section-2-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-2 ."; }
-
-#section-2 #section-2-content {
-  grid-area: section-2; }
-
-#section-2 img {
-  width: 100%; }
+  #section-2 #section-2-tablet #section-2-container #section-2-content {
+    grid-area: section-2; }
 
 /* =============
     Section 3
