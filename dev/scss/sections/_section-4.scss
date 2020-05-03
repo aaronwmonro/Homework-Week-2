@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 15px auto 15px ;
     grid-template-areas: ". quote . ";
+    text-align: center;
 
     @include md{
         display: grid;

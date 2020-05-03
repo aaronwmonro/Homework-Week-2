@@ -426,7 +426,8 @@ textarea {
 #section-4 {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". quote . "; }
+  grid-template-areas: ". quote . ";
+  text-align: center; }
   @media (min-width: 768px) {
     #section-4 {
       display: grid;
