@@ -379,23 +379,40 @@ textarea {
 /* =============
     Section 2
 ============= */
-@media (min-width: 768px) {
-  #section-2 #section-2-tablet {
+@media (min-width: 1200px) {
+  #section-2 {
     display: grid;
-    grid-template-columns: 40% auto; } }
+    grid-template-columns: auto 1200 auto;
+    grid-template-areas: ". section-2-desktop ."; } }
 
-#section-2 #section-2-tablet #section-2-tablet-content {
-  grid-area: section-2; }
+@media (min-width: 992px) {
+  #section-2 #section-2-desktop {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "image section-2-content"; } }
 
-#section-2 #section-2-tablet aside img {
+@media (min-width: 768px) {
+  #section-2 #section-2-desktop {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "image section-2-content"; } }
+
+#section-2 #section-2-desktop aside img {
   width: 100%; }
 
-#section-2 #section-2-tablet #section-2-container {
+@media (min-width: 1200px) {
+  #section-2 #section-2-desktop {
+    grid-area: section-2-desktop; } }
+
+#section-2 #section-2-desktop #section-2-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-2 ."; }
-  #section-2 #section-2-tablet #section-2-container #section-2-content {
-    grid-area: section-2; }
+  grid-template-areas: ". section-2-content ."; }
+  #section-2 #section-2-desktop #section-2-container #section-2-content {
+    grid-area: section-2-content; }
+
+#section-2 #section-2-desktop #section-2-image {
+  grid-area: image; }
 
 /* =============
     Section 3
@@ -409,36 +426,97 @@ textarea {
 #section-4 {
   display: grid;
   grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". section-4 ."; }
+  grid-template-areas: ". quote . "; }
+  @media (min-width: 768px) {
+    #section-4 {
+      display: grid;
+      grid-template-columns: auto 500px auto;
+      grid-template-areas: ". quote . "; } }
+  @media (min-width: 992px) {
+    #section-4 {
+      display: grid;
+      grid-template-columns: auto 700px auto;
+      grid-template-areas: ". quote . "; } }
   #section-4 #section-4-content {
-    grid-area: section-4; }
+    grid-area: quote; }
 
 /* =============
     Section 5
 ============= */
 #section-5 {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: '. section-5 .'; }
+  grid-template-columns: 0% auto 0%;
+  grid-template-areas: ". section-5 ."; }
+  @media (min-width: 1200px) {
+    #section-5 {
+      grid-template-columns: auto 1200px auto; } }
   #section-5 ul {
     grid-area: section-5;
     display: grid;
     gap: 20px; }
+    @media (min-width: 768px) {
+      #section-5 ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "g1 g1" "g2 g3"; } }
+    @media (min-width: 992px) {
+      #section-5 ul {
+        grid-template-columns: 60% 40%;
+        grid-template-areas: "g1 g2" "g1 g3"; } }
     #section-5 ul li img {
       width: 100%; }
-
+    @media (min-width: 768px) {
+      #section-5 ul #g1 {
+        grid-area: g1; } }
+    @media (min-width: 768px) {
+      #section-5 ul #g2 {
+        grid-area: g2; } }
+    @media (min-width: 768px) {
+      #section-5 ul #g3 {
+        grid-area: g3; } }
 /* =============
     Section 6
 ============= */
-#section-6 #section-6-container {
+#section-6 {
   display: grid;
-  grid-template-columns: 15px auto 15px;
+  grid-template-columns: 5% auto 5%;
   grid-template-areas: ". section-6 ."; }
-  #section-6 #section-6-container img {
-    width: 100%; }
-  #section-6 #section-6-container #section-6-content {
+  @media (min-width: 1200px) {
+    #section-6 {
+      display: grid;
+      grid-template-columns: auto 1200 auto;
+      grid-template-areas: ". section-6-content ."; } }
+  #section-6 #section-6-content {
     grid-area: section-6; }
-
+    @media (min-width: 1200px) {
+      #section-6 #section-6-content {
+        grid-area: section-6-content; } }
+    @media (min-width: 992px) {
+      #section-6 #section-6-content {
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas: " image type"; } }
+    @media (min-width: 768px) {
+      #section-6 #section-6-content #section-6-image {
+        display: grid;
+        grid-template-columns: 30% auto 30%;
+        grid-template-areas: ". image ."; } }
+    @media (min-width: 768px) {
+      #section-6 #section-6-content #section-6-image #section-6-image-content {
+        grid-area: image; } }
+    @media (min-width: 768px) {
+      #section-6 #section-6-content #section-6-type {
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+        grid-template-areas: ". type ."; } }
+    @media (min-width: 992px) {
+      #section-6 #section-6-content #section-6-type {
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+        grid-template-areas: ". type .";
+        margin: 85px; } }
+    @media (min-width: 768px) {
+      #section-6 #section-6-content #section-6-type #section-6-type-content {
+        grid-area: type; } }
 /* =============
     Footer
 ============= */
