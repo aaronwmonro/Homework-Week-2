@@ -13,7 +13,7 @@
     @include xl {
         display: grid;
         grid-template-columns: auto 1000 auto;
-        grid-template-areas: ".section-6 .";
+        grid-template-areas: ". section-6 .";
     }   
     
    
