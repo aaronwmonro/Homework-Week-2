@@ -4,29 +4,40 @@
 
 #section-6{
     display: grid;
-    grid-template-columns: 5% auto 5%;
+    grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-6 .";
+    align-items: center; 
+    
+    
 
     @include xl {
         display: grid;
-                grid-template-columns: auto 1200 auto;
-                grid-template-areas: ". section-6-content .";
+        grid-template-columns: auto 1000 auto;
+        grid-template-areas: ".section-6 .";
+    }   
     
-    }    
-
+   
 
     #section-6-content{
         grid-area: section-6;
 
-        @include xl {
-            grid-area: section-6-content;
-        }
-        @include lg{
+            @include lg{
             display: grid;
-                grid-template-columns: 30% auto ;
-                grid-template-areas: " image type";
-
+            grid-template-columns: 30% 70%;
+            align-items: center; 
+            grid-gap: 20px;
+       
         }
+        
+        
+
+        aside{
+        
+            img{
+                width: 100%;
+            }
+        }
+       
         
         #section-6-image{
             @include md{
@@ -35,10 +46,18 @@
                 grid-template-areas: ". image .";
             }
 
+            @include lg{
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-areas: "image ";
+            }
+
+
+           
+
             #section-6-image-content{
-                @include md{
-                    grid-area: image;
-                }
+                grid-area: image;
+            
             }
         }
 
@@ -52,16 +71,17 @@
 
             @include lg{
                 display: grid;
-                grid-template-columns: 10% auto 10%;
-                grid-template-areas: ". type .";
-                margin: 85px;
+                grid-template-columns: auto;
+                grid-template-areas: "type";
                 
             }
+            
+
+           
 
             #section-6-type-content{
-                @include md{
                     grid-area: type;
-                }
+                
             }
         }
 
