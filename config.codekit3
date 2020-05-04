@@ -382,16 +382,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
-		"oS": 3
-		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,

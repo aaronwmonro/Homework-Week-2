@@ -3,91 +3,40 @@
 ============= */ 
 
 #section-6{
-    display: grid;
-    grid-template-columns: 15px auto 15px;
-    grid-template-areas: ". section-6 .";
-    align-items: center; 
-    
-    
 
-    @include xl {
+    @include md{
         display: grid;
-        grid-template-columns: auto 1000 auto;
+        grid-template-columns: auto 60% auto;
         grid-template-areas: ". section-6 .";
-    }   
-    
-   
+    }
+
+    @include xl{
+        grid-template-columns: auto 800px auto;
+    }
 
     #section-6-content{
-        grid-area: section-6;
 
-            @include lg{
+        @include md{
+            grid-area: section-6;
+        }
+
+        @include lg{
             display: grid;
-            grid-template-columns: 30% 70%;
-            align-items: center; 
-            grid-gap: 20px;
-       
+            grid-template-columns: 40% auto;
         }
-        
-        
 
-        aside{
-        
-            img{
-                width: 300px;
-            }
-        }
-       
-        
-        #section-6-image{
-            @include md{
-                display: grid;
-                grid-template-columns: 30% auto 30%;
-                grid-template-areas: ". image .";
-            }
-
-            @include lg{
-                display: grid;
-                grid-template-columns: auto;
-                grid-template-areas: "image ";
-            }
-
-
-           
-
-            #section-6-image-content{
-                grid-area: image;
-            
-            }
-        }
+    
 
         #section-6-type{
-            @include md{
-                display: grid;
-                grid-template-columns: 10% auto 10%;
-                grid-template-areas: ". type .";
-                
-            }
 
-            @include lg{
-                display: grid;
-                grid-template-columns: auto;
-                grid-template-areas: "type";
-                
-            }
-            
-
-           
+            display: grid;
+            grid-template-columns: 10px auto 10px;
+            grid-template-areas: ". section-6-type . ";
+            align-items: center;
 
             #section-6-type-content{
-                    grid-area: type;
-                
+                grid-area: section-6-type ;
             }
         }
-
-    
     }
-    
-
-   
 }
