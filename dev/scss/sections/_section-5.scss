@@ -13,49 +13,51 @@
 
     ul{
         grid-area: section-5;
+        grid-template-rows: repeat(3, 300px);
         display: grid;
         gap:20px;
+        grid-template-areas:
+        "g1"
+        "g2"
+        "g3";
 
        
         @include md{
-            grid-template-columns: repeat(2, 1fr);
-            // grid-template-columns: 50% 50%;
-            // grid-template-columns: 50% auto;
-            grid-template-areas: 
-            "g1 g1"
-            "g2 g3";
+            grid-template-columns: repeat(2, 50% 50%);
+            grid-template-rows: repeat(3, 340px);
+           grid-template-areas: 
+           "g1 g1"
+           "g1 g1"
+           "g2 g3";
         }
 
         @include lg{
-            grid-template-columns: 60% 40%;
-            // grid-template-columns: 50% 50%;
-            // grid-template-columns: 50% auto;
+            grid-template-columns: repeat(2, 65% 35%);
+            grid-template-rows: repeat(2, 340px);
             grid-template-areas: 
             "g1 g2"
             "g1 g3";
         }
         li{
-            img{
-                width: 100%;
-            }
+          background-size: cover;
+          background-position: center;
+          
+
         }
 
-        #g1{
-            @include md{
-                grid-area: g1;
-            }
+        #g1{ background-image: url(../img/section-5/gallery-1.jpg);
+             grid-area: g1;
+            
         }
 
-        #g2{
-            @include md{
-                grid-area: g2;
-            }
+        #g2{ background-image: url(../img/section-5/gallery-2.jpg);
+            grid-area: g2;
+            
         }
 
-        #g3{
-            @include md{
+        #g3{ background-image: url(../img/section-5/gallery-3.jpg);
                 grid-area: g3;
-            }
+            
         }
     }
 

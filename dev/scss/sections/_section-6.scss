@@ -11,10 +11,26 @@
     }
 
     @include xl{
-        grid-template-columns: auto 800px auto;
+        grid-template-columns: auto 900px auto;
     }
-
+    @include lg{
+        margin: 30px 0px 50px 0px;
+    }
     #section-6-content{
+        aside{
+           background-image: url(../img/section-6/circle.jpg);
+           background-position: center;
+           background-position: cover;
+           background-repeat: no-repeat;
+           height: 320px;
+           margin: 20px 0px 40px 0px;
+
+           @include lg{
+               margin: 0px 0px 0px 0px;
+           }
+
+
+        }
 
         @include md{
             grid-area: section-6;
@@ -22,7 +38,8 @@
 
         @include lg{
             display: grid;
-            grid-template-columns: 40% auto;
+            grid-template-columns: 45% auto;
+            
         }
 
     
@@ -33,6 +50,10 @@
             grid-template-columns: 10px auto 10px;
             grid-template-areas: ". section-6-type . ";
             align-items: center;
+            font-family: 'open sans';
+            font-size: rem-calc(21);
+            line-height: rem-calc(40);
+            text-align: justify;
 
             #section-6-type-content{
                 grid-area: section-6-type ;

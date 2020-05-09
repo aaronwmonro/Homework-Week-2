@@ -9,6 +9,17 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/Assets/Image1.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/Assets/Image1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -32,7 +43,7 @@
 		},
 	"/deploy/img/section-1/hero.jpg": {
 		"ft": 16384,
-		"iS": 724986,
+		"iS": 3264907,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-1/hero.jpg",
@@ -49,7 +60,7 @@
 		"oAP": "/deploy/img/section-2/left-side.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section-3/hero-2.jpg": {
@@ -60,7 +71,7 @@
 		"oAP": "/deploy/img/section-3/hero-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/section-5/gallery-1.jpg": {
@@ -96,15 +107,26 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-6/circle-mask.jpg": {
+	"/deploy/img/section-6/circle.jpg": {
 		"ft": 16384,
-		"iS": 123814,
+		"iS": 127947,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/section-6/circle-mask.jpg",
+		"oAP": "/deploy/img/section-6/circle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-6/circle.png": {
+		"ft": 32768,
+		"iS": 217150,
+		"oA": 0,
+		"oAP": "/deploy/img/section-6/circle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {

@@ -3,11 +3,19 @@
 ============= */
 #footer{
     display: grid;
-    grid-template-columns: 310px auto 15px ;
+    grid-template-columns: 15px auto 15px ;
     grid-template-areas: " . footer . ";
-
+    background-color: #B7A78D;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: 40px 0px 0px 0px;
+    font-family: 'open sans';
+    font-size: rem-calc(16);
+    text-align: right;
+        
     #footer-content{
         grid-area: footer;
+        color: white;
     }
 
 }
