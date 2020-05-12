@@ -1,9 +1,9 @@
 /* =============
     Footer
 ============= */
-#footer{
+#footer {
     display: grid;
-    grid-template-columns: 15px auto 15px ;
+    grid-template-columns: 15px auto 15px;
     grid-template-areas: " . footer . ";
     background-color: #B7A78D;
     padding-top: 40px;
@@ -12,8 +12,8 @@
     font-family: 'open sans';
     font-size: rem-calc(16);
     text-align: right;
-        
-    #footer-content{
+
+    #footer-content {
         grid-area: footer;
         color: white;
     }

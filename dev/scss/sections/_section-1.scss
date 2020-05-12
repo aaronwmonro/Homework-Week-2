@@ -2,27 +2,28 @@
     Section 1
 ============= */
 
-#section-1{
-background-image: url('../img/section-1/hero.jpg');
-background-size: cover;
+#section-1 {
+    background-image: url('../img/section-1/hero.jpg');
+    background-size: cover;
 
-background-position: center;
-height: 50vh;
-
-@include md{
+    background-position: center;
     height: 50vh;
-    background-position: center -100;
-    
-}
 
-@include lg{
-    height: 90vh;
-    
-}
-@include xl{
-    height: 90;
-    
-}
+    @include md {
+        height: 50vh;
+        background-position: center -100;
+
+    }
+
+    @include lg {
+        height: 90vh;
+
+    }
+
+    @include xl {
+        height: 90;
+
+    }
 
 
 }

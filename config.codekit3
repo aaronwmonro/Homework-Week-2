@@ -9,17 +9,6 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/Assets/Image1.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/Assets/Image1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -464,25 +453,6 @@
 		"oA": 1,
 		"oAP": "/dev/section-6.html",
 		"oF": 1
-		},
-	"/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [

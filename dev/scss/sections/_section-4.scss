@@ -1,54 +1,59 @@
 /* =============
     Section 4
 ============= */
-#section-4{
-   hr{height: 3px;
-    background-color: black;
-    border: none;
+#section-4 {
+    hr {
+        height: 3px;
+        background-color: black;
+        border: none;
 
-   }
-    h3{
+    }
+
+    h3 {
         font-family: 'noto serif';
         font-size: rem-calc(18);
         line-height: rem-calc(40);
         color: #B7A78D;
         margin: 20px 0px 20px 0px;
-        @include md{
+
+        @include md {
             font-size: rem-calc(27);
-            line-height: rem-calc(50) ;
+            line-height: rem-calc(50);
         }
-        @include lg{
+
+        @include lg {
             font-size: rem-calc(40);
-            line-height: rem-calc(70) ;
+            line-height: rem-calc(70);
         }
     }
+
     display: grid;
-    grid-template-columns: 15px auto 15px ;
+    grid-template-columns: 15px auto 15px;
     grid-template-areas: ". quote . ";
     text-align: center;
     margin: 40px 0px 20px 0px;
 
-    @include md{
+    @include md {
         display: grid;
-        grid-template-columns: auto 500px auto ;
+        grid-template-columns: auto 500px auto;
         grid-template-areas: ". quote . ";
         margin: 50px 0px 30px 0px;
 
- }
+    }
 
-    @include lg{
+    @include lg {
         display: grid;
-        grid-template-columns: auto 700px auto ;
+        grid-template-columns: auto 700px auto;
         grid-template-areas: ". quote . ";
         margin: 60px 0px 40px 0px;
-}
-  
-            
-            #section-4-content{
-                grid-area: quote ;
-              
-          }
-   
-    
+    }
+
+
+    #section-4-content {
+        grid-area: quote;
+
+    }
+
+
 
 }

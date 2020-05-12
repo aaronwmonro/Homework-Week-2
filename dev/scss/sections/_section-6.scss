@@ -1,50 +1,52 @@
 /* =============
     Section 6
-============= */ 
+============= */
 
-#section-6{
+#section-6 {
 
-    @include md{
+    @include md {
         display: grid;
         grid-template-columns: auto 60% auto;
         grid-template-areas: ". section-6 .";
     }
 
-    @include xl{
+    @include xl {
         grid-template-columns: auto 900px auto;
     }
-    @include lg{
+
+    @include lg {
         margin: 30px 0px 50px 0px;
     }
-    #section-6-content{
-        aside{
-           background-image: url(../img/section-6/circle.jpg);
-           background-position: center;
-           background-position: cover;
-           background-repeat: no-repeat;
-           height: 320px;
-           margin: 20px 0px 40px 0px;
 
-           @include lg{
-               margin: 0px 0px 0px 0px;
-           }
+    #section-6-content {
+        aside {
+            background-image: url(../img/section-6/circle.jpg);
+            background-position: center;
+            background-position: cover;
+            background-repeat: no-repeat;
+            height: 320px;
+            margin: 20px 0px 40px 0px;
+
+            @include lg {
+                margin: 0px 0px 0px 0px;
+            }
 
 
         }
 
-        @include md{
+        @include md {
             grid-area: section-6;
         }
 
-        @include lg{
+        @include lg {
             display: grid;
             grid-template-columns: 45% auto;
-            
+
         }
 
-    
 
-        #section-6-type{
+
+        #section-6-type {
 
             display: grid;
             grid-template-columns: 10px auto 10px;
@@ -55,8 +57,8 @@
             line-height: rem-calc(40);
             text-align: justify;
 
-            #section-6-type-content{
-                grid-area: section-6-type ;
+            #section-6-type-content {
+                grid-area: section-6-type;
             }
         }
     }
