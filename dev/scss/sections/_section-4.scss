@@ -3,17 +3,17 @@
 ============= */
 #section-4 {
     hr {
-        height: 3px;
         background-color: black;
         border: none;
+        height: 3px;
 
     }
 
     h3 {
+        color: #B7A78D;
         font-family: 'noto serif';
         font-size: rem-calc(18);
         line-height: rem-calc(40);
-        color: #B7A78D;
         margin: 20px 0px 20px 0px;
 
         @include md {
@@ -28,23 +28,23 @@
     }
 
     display: grid;
-    grid-template-columns: 15px auto 15px;
     grid-template-areas: ". quote . ";
-    text-align: center;
+    grid-template-columns: 15px auto 15px;
     margin: 40px 0px 20px 0px;
+    text-align: center;
 
     @include md {
         display: grid;
-        grid-template-columns: auto 500px auto;
         grid-template-areas: ". quote . ";
+        grid-template-columns: auto 500px auto;
         margin: 50px 0px 30px 0px;
 
     }
 
     @include lg {
         display: grid;
-        grid-template-columns: auto 700px auto;
         grid-template-areas: ". quote . ";
+        grid-template-columns: auto 700px auto;
         margin: 60px 0px 40px 0px;
     }
 

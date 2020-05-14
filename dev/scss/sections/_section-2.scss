@@ -46,9 +46,7 @@
         @include xl {
             grid-area: section-2-desktop;
         }
-
-
-
+        
         #section-2-container {
             display: grid;
             grid-template-columns: 15px auto 15px;

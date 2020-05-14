@@ -1,3 +1,22 @@
 /* =============
     Footer
 ============= */
+
+#footer {
+    background-color: #B7A78D;
+    display: grid;
+    font-family: 'open sans';
+    font-size: rem-calc(16);
+    grid-template-areas: " . footer . ";
+    grid-template-columns: 15px auto 15px;
+    margin: 40px 0px 0px 0px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    text-align: right;
+
+    #footer-content {
+        color: white;
+        grid-area: footer;
+    }
+
+}

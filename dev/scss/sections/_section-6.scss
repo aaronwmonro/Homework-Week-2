@@ -48,12 +48,12 @@
 
         #section-6-type {
 
-            display: grid;
-            grid-template-columns: 10px auto 10px;
-            grid-template-areas: ". section-6-type . ";
             align-items: center;
+            display: grid;
             font-family: 'open sans';
             font-size: rem-calc(21);
+            grid-template-areas: ". section-6-type . ";
+            grid-template-columns: 10px auto 10px;
             line-height: rem-calc(40);
             text-align: justify;
 
