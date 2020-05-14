@@ -678,8 +678,10 @@ header {
   background-position: center;
   background-position: cover;
   background-repeat: no-repeat;
-  height: 320px;
-  margin: 20px 0px 40px 0px; }
+  border-radius: 100%;
+  height: 300px;
+  margin: 20px auto 40px auto;
+  width: 300px; }
   @media (min-width: 992px) {
     #section-6 #section-6-content aside {
       margin: 0px 0px 0px 0px; } }
